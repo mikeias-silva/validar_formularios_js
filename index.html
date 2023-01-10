@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario usuario</title>
+</head>
+
+<body>
+    <section>
+        <ul>
+            <li>Nenhum campo pode ser vazio</li>
+            <li>Usuario só pode ter letras ou numeros</li>
+            <li>Usuario devera ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter 6 e 12 caracteres</li>
+            <li>Campos senhas precisa validar senhas iguais</li>
+        </ul>
+        <form action="" class="form" method="post">
+            <label for="">Nome</label>
+            <input type="text" class="nome" placeholder="Nome">
+            <br />
+            <label for="">Sobrenome</label>
+            <input type="text" class="sobrenome" placeholder="Sobrenome">
+            <br />
+            <label for="usuario">Usuario</label>
+            <input type="text" class="usuario" placeholder="Usuário">
+            <br />
+            <label for="">CPF</label>
+            <input type="text" class="cpf" placeholder="CPF">
+            <br />
+            <label for="Senha">Senha</label>
+            <input type="text" class="senha" placeholder="Insira sua senha">
+            <br />
+            <label for="">Repetir Senha</label>
+            <input type="text" class="repetir_senha" placeholder="Repetir senha">
+            <br />
+            <button type="submit">Confirmar</button>
+        </form>
+    </section>
+
+    <script src="./valida_cpf.js"></script>
+    <script src="./validador_formulario.js"></script>
+</body>
+
+</html>
